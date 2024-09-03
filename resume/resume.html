@@ -1,0 +1,249 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yangmei Lu - Personal Portfolio</title>
+    <style>
+        /* Reset and general styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        /* Header styles */
+        header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        /* Section styles */
+        .section {
+            background: #ffffff;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #6e8efb;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #6e8efb;
+            padding-bottom: 10px;
+        }
+        .section h3 {
+            color: #a777e3;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .section li {
+            margin-bottom: 5px;
+        }
+        /* Profile image styles */
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        /* Button styles */
+        .btn {
+            display: inline-block;
+            background: #6e8efb;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #5c7cfa;
+        }
+        /* Footer styles */
+        footer {
+            background: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #a777e3;
+            text-decoration: none;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Yangmei Lu</h1>
+            <p>A dedicated student passionate about AI</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Profile Image (Placeholder)
+        <img src="/api/placeholder/200/200?text=Yangmei+Lu" alt="Yangmei Lu" class="profile-img">
+-->
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a Computer Science student with a strong passion for AI and technology. My educational journey and professional experiences have shaped me into a dedicated and innovative individual ready to make an impact in the tech world. With a background spanning from AI development to product management, I bring a unique perspective to every project I undertake.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <h3>Borough of Manhattan Community College, New York, NY</h3>
+            <ul>
+                <li>Associate in Science Degree in Computer Science (4.0 GPA)</li>
+                <li>Expected Graduation Date: May 2026</li>
+                <li>Current Coursework: Python, C++, Introduction to Statistics, Introduction to Algebra and Pre-Calculus</li>
+            </ul>
+            <h3>NYU Tandon Bridge Program, New York, NY</h3>
+            <ul>
+                <li>Bridge Certification in Computer Science (Distinction Award)</li>
+                <li>Completed: January 2023 - January 2024</li>
+                <li>Coursework: C++, Data Structures, Discrete Mathematics, Operating Systems, Networking</li>
+            </ul>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <h3>HeadStarter AI, New York, NY</h3>
+            <h4>SWE Apprenticeship (July 2024 - Present)</h4>
+            <ul>
+                <li>Building 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users</li>
+                <li>Developing projects from design to deployment, leading 2+ engineering fellows using MVC design patterns</li>
+                <li>Coaching by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns</li>
+            </ul>
+            <h3>AI Discovery with WorkED & Amazon, New York, NY</h3>
+            <h4>AI Externship (August 2024)</h4>
+            <ul>
+                <li>Collaborated with team members at Amazon HQ to build chatBot</li>
+                <li>Created and trained 2 AI models in Fashion and Health industry</li>
+                <li>Developed 2 personal and team projects using chatGpt, Claude, Ideogram, IMB Watson and Canvas</li>
+            </ul>
+            <h3>BMCC AI Tech Innovation Hub, New York, NY</h3>
+            <h4>Summer Intern (June 2024)</h4>
+            <ul>
+                <li>Collaborated with fellow interns and mentors to create a website platform to facilitate the experience at food pantry</li>
+                <li>Applied Agile methods to conduct scrum meetings with clients and collaborators</li>
+                <li>Developed software using SQL, PHP, HTML, CSS and Bootstrap</li>
+            </ul>
+            <h3>HongHai Technology, Shenzhen, China</h3>
+            <h4>New Product Introduction - RD Program Manager (September 2020 - August 2022)</h4>
+            <ul>
+                <li>Led the end-to-end development of smart home products like routers and set-top boxes</li>
+                <li>Managed NPI proto builds, ensuring on-time, on-budget and high-quality product delivery</li>
+            </ul>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Project Management Professional (PMP) by PMI</li>
+                <li>National Psychological Counselor - Level II</li>
+            </ul>
+        </section>
+
+        <!-- Volunteer Experience Section -->
+        <section id="volunteer" class="section">
+            <h2>Volunteer Experience</h2>
+            <h3>Programming Club, New York, NY</h3>
+            <ul>
+                <li>Trained coding skill from weekly coding challenges, workshops, and guest lectures</li>
+                <li>Worked on collaborating projects, networking with industry professionals</li>
+            </ul>
+            <h3>Happy Family Research Institute, Shenzhen, China</h3>
+            <ul>
+                <li>Trained as a seed counselor from online courses, offline meetings and practices</li>
+                <li>Supported rural left-behind children and elders by providing consulting and service</li>
+            </ul>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards" class="section">
+            <h2>Awards</h2>
+            <ul>
+                <li>Top Summer Intern Individual and Team Award in Economics and Trade Department</li>
+                <li>Top Individual in Art & Culture Award</li>
+                <li>Silver Prize for the ACTS National University Students Public Speaking Competition</li>
+                <li>1st place as a team on AI Track of the BMCC AI Innovation Challenge</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <button class="btn" onclick="location.href='mailto:yangmeilulu@gmail.com'">Email Me</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/yangmei-lu" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple animation for section entrance
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section').forEach((section) => {
+            section.style.opacity = 0;
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.5s, transform 0.5s';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
